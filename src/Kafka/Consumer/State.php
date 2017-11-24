@@ -119,7 +119,7 @@ class State
                 $this->requests[$request]['interval'] = $config->getMetadataRefreshIntervalMs();
                 break;
             default:
-                $this->requests[$request]['interval'] = 1000;
+                $this->requests[$request]['interval'] = 100;
             }
         }
     }
